@@ -48,7 +48,7 @@ function kurangiSaldo() {
 }
 
 // Menambahkan event listener ke tombol-tombol
-document.getElementById("tambahButton").addEventListener("click", tambahSaldo);
+document.querySelector(".btnTambah").addEventListener("click", tambahSaldo);
 document.getElementById("kurangiButton").addEventListener("click", kurangiSaldo);
 
 tampilSaldo(); // Memanggil fungsi tampilSaldo untuk menampilkan saldo awal
